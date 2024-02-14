@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Inter', sans-serif;
+   
+}
+
+
+
+/* -----------------------------------------             LOGO                           ----------------------------------------------------- */
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.logo{
+    background-image: url(../images/1.jpeg);
+    height: 100px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+
+
+/* -----------------------------------------             NAVBAR                          ----------------------------------------------------- */
+
+
+
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+
+}
+.n{
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+}
+
+a:hover{
+    color: #4caf50;
+    border: 2px solid #4caf50;
+}
+
+a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #4caf50;
+    transition:width .3;
+}
+
+a:hover::after{
+    width: 100%;
+    transition:width .3s;
+}
+
+
+/* -----------------------------------------             IMAGE                           ----------------------------------------------------- */
+.batman1{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.img{
+    background-image: url(../images/2.jpeg);
+    height: 550px;
+    width: 3000px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.heading{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 600px;
+    font-size: 30px;
+    color: white;
+}
+.parag{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+    opacity: 0.6;
+}
+
+
+
+
+/* -----------------------------------------          DESCRIPTION                        ----------------------------------------------------- */
+
+
+h2{ 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.paragraph1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+/* -----------------------------------------             CARDS                          ----------------------------------------------------- */
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    /* margin: 20px; */
+    width: 100%;
+    background-color: rgb(145, 145, 145);
+    border: 3px solid rgb(145, 145, 145);
+    margin-bottom: 10%;
+}
+.image img{
+    width: 100%;
+    height: 50vh;
+    clip-path: inset(0 0 30% 0);
+}
+.title{
+    padding: 10px;
+    text-align: center;
+}
+hr{
+    text-align: center;
+    margin: 10px;
+}
+.des{
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+.card-body{
+    background-color: grey;
+    height: fit-content;
+    width: 350;
+    /* margin-right:60px;
+    margin-bottom: 10px; */
+}
+.card-img-top{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+
+/* -----------------------------------------             FOOTER                         ----------------------------------------------------- */
+
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    margin-bottom: 20px;
+    padding: 80px;
+}
+.g{
+    text-align: center;
+    color: white;
+    margin: 10px;  
+}
+.f{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    opacity: 0.6;
+}
+.fooot{
+    text-align: center;
+}

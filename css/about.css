@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+}
+img{
+    height: 50vh;
+    width: 400px;
+}
